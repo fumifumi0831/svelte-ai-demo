@@ -6,6 +6,7 @@
   
   onMount(async () => {
     try {
+      // staticディレクトリからMarkdownファイルを取得
       const response = await fetch('/articles/nextjs-to-svelte.md');
       articleContent = await response.text();
     } catch (error) {
