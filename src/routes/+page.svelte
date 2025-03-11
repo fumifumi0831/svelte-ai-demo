@@ -42,6 +42,13 @@
       <p>{response}</p>
     </div>
   {/if}
+
+  <div class="resources">
+    <h3>参考資料</h3>
+    <ul>
+      <li><a href="/article">Next.js開発者がSvelteを学ぶ理由と始め方</a></li>
+    </ul>
+  </div>
 </div>
 
 <style>
@@ -87,5 +94,25 @@
   h1 {
     color: #ff3e00;
     margin-bottom: 20px;
+  }
+
+  .resources {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+  }
+
+  .resources h3 {
+    color: #333;
+    font-size: 1.2rem;
+  }
+
+  .resources a {
+    color: #ff3e00;
+    text-decoration: none;
+  }
+
+  .resources a:hover {
+    text-decoration: underline;
   }
 </style>
